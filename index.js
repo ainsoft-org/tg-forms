@@ -5,6 +5,7 @@
  * Author: Mukhammadyusuf Abdurakhimov
  * Email: icoderx@yandex.com
  */
+const axios = require("axios");
 
 const sendMessage = (options) => {
   const admins = options.admins;
