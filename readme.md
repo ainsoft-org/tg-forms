@@ -1,6 +1,8 @@
 # tg-forms@0.1.1
 
-Small JavaScript library for **Sending and Creating Telegram Forms**
+<img src="./Logo.png"  alt="tg-forms logo"/>
+
+Small JavaScript library for Sending and Creating Telegram Forms
 
 ## Installation
 
