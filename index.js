@@ -2,6 +2,8 @@
  * How it works?
  * Telegram send message url: "https://api.telegram.org/bot{$token}/sendMessage?chat_id={$id}&parse_mode=html&text={$text}
  * Options: token, admins, message, parse_mode
+ * Author: Mukhammadyusuf Abdurakhimov
+ * Email: icoderx@yandex.com
  */
 
 const sendMessage = (options) => {
