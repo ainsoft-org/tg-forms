@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Bytech-Uzbekistan/tg-forms/issues"
   },
-  "homepage": "https://github.com/Bytech-Uzbekistan/tg-forms#readme"
+  "homepage": "https://github.com/Bytech-Uzbekistan/tg-forms#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
