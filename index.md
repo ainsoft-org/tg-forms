@@ -23,3 +23,11 @@ const options = {
 sendMessage(options);
 
 ```
+
+# codepen
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="tg forms" src="https://codepen.io/mrabdurakhimov/embed/MWEjXwL?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/mrabdurakhimov/pen/MWEjXwL">
+  tg forms</a> by Mukhammadyusuf Abdurakhimov (<a href="https://codepen.io/mrabdurakhimov">@mrabdurakhimov</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
