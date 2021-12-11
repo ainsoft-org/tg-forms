@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# tg-forms@0.1.1
 
-You can use the [editor on GitHub](https://github.com/Bytech-Uzbekistan/tg-forms/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<img src="https://raw.githubusercontent.com/Bytech-Uzbekistan/tg-forms/HEAD/Logo.png"  alt="tg-forms logo"/>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Small JavaScript library for Sending and Creating Telegram Forms
 
-### Markdown
+## Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+`npm install tg-forms --save`
 
-```markdown
-Syntax highlighted code block
+## Getting started
 
-# Header 1
-## Header 2
-### Header 3
+```JavaScript
+import {sendMessage} from 'tg-forms'
 
-- Bulleted
-- List
+const options = {
+    token: process.env.BOT_TOKEN,
+    admins: [1234567,-1274287329], //Telegram admin chat IDs
+    parse_mode: "markdown", //Default is markdown
+    message: "Custom **message** you _want_ to send",
+}
 
-1. Numbered
-2. List
+sendMessage(options);
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bytech-Uzbekistan/tg-forms/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
