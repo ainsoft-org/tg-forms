@@ -5,10 +5,10 @@ export const fetcher = (address: string, params: any) => {
         .get(address, {
             params
         })
-        .then((response) => {
+        .then((response: any) => {
             return response
         })
-        .catch((error) => {
+        .catch((error: any) => {
             throw new Error(error.message)
         })
 }
