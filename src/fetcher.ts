@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-export const fetcher = (address: string, params: any) => {
-    axios
+export const fetcher = async (address: string, params: any): Promise<any> => {
+    return await axios
         .get(address, {
             params
         })

@@ -1,6 +1,6 @@
 {
   "name": "tg-forms",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simple JavaScript Library for sending and creating telegram forms",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -42,7 +42,9 @@
     "axios": "^0.24.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/jest": "^27.4.0",
+    "dotenv": "^16.0.3",
     "jest": "^27.4.7",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.2",

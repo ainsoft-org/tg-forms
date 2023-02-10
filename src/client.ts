@@ -42,24 +42,34 @@ export class TGForms {
     }
 
     /**
+     * Get information about the bot itself if connected
+     * @returns {Promise<any>}
+     * @public
+     * @example
+     */
+    public getBotInfo = async () => {
+        return await fetcher(`${this.getUrl()}/getMe`, {})
+    }
+
+    /**
      * Send messages to wanted user on Telegram
      * @param to A person or array of persons to send messages to
      * @param message Content of the message which is string
      */
-    public sendMessage = (to: sendTo, message: string): any => {
+    public sendMessage = async (to: sendTo, message: string): Promise<any> => {
         switch (typeof to) {
             case 'number':
-                return fetcher(`${this.getUrl()}/sendMessage`, {
+                return await fetcher(`${this.getUrl()}/sendMessage`, {
                     chat_id: to,
                     parse_mode: this.parse,
                     text: message
                 })
             case 'object':
-                return to.forEach((char: number) => {
-                    return fetcher(`${this.getUrl()}`, {
-                        chat_id: to,
+                return to.map(async (char: number) => {
+                    return await fetcher(`${this.getUrl()}`, {
+                        chat_id: char,
                         parse_mode: this.parse,
-                        text: char
+                        text: message
                     })
                 })
             default:
