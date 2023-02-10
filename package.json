@@ -1,6 +1,6 @@
 {
   "name": "tg-forms",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "@tg-forms is a simple library for sending and creating Telegram forms. It allows you to easily send messages to your Telegram chats, as well as validate your bot token and retrieve basic information about your bot.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bytech-Uzbekistan/tg-forms.git"
+    "url": "https://github.com/ainsoft-org/tg-forms.git"
   },
   "keywords": [
     "Telegram",
@@ -35,9 +35,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bytech-Uzbekistan/tg-forms/issues"
+    "url": "https://github.com/ainsoft-org/tg-forms/issues"
   },
-  "homepage": "https://github.com/Bytech-Uzbekistan/tg-forms#readme",
+  "homepage": "https://github.com/ainsoft-org/tg-forms#readme",
   "dependencies": {
     "axios": "^0.24.0"
   },
