@@ -1,7 +1,7 @@
 {
   "name": "tg-forms",
-  "version": "0.2.1",
-  "description": "Simple JavaScript Library for sending and creating telegram forms",
+  "version": "0.2.2",
+  "description": "@tg-forms is a simple library for sending and creating Telegram forms. It allows you to easily send messages to your Telegram chats, as well as validate your bot token and retrieve basic information about your bot.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
